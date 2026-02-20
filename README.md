@@ -3,6 +3,32 @@
 AI-система для работы с PostgreSQL на естественном языке: пользователь задаёт вопрос, backend строит SQL через LangGraph-агентов, возвращает таблицу/инсайты, а при необходимости строит визуализацию.  
 Проект состоит из `FastAPI` backend и `Next.js` frontend.
 
+<div align="center">
+  <a href="https://text2sql.ru" target="_blank">
+    <img alt="text2sql" src="https://img.shields.io/badge/Открыть%20сервис-text2sql.ru-5B8CFF?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </a>
+</div>
+
+## Визуальный обзор сервиса
+
+<p align="center">
+  <img src="docs/images/screen-home.png" alt="Главный экран text2sql" width="92%" />
+</p>
+
+<p align="center">
+  <img src="docs/images/screen-result.png" alt="Результат SQL-запроса" width="45%" />
+  <img src="docs/images/screen-cache.png" alt="Подтверждение использования кэша" width="45%" />
+</p>
+
+<p align="center">
+  <img src="docs/images/screen-chart.png" alt="Подтверждение визуализации и график" width="45%" />
+  <img src="docs/images/screen-erd.png" alt="ER-диаграмма базы данных" width="45%" />
+</p>
+
+<p align="center">
+  <img src="docs/images/screen-authors.png" alt="Авторы проекта" width="92%" />
+</p>
+
 ## Возможности
 
 - Чат с БД на русском/английском языке.
@@ -58,6 +84,14 @@ Multiagents-system/
 │   ├── lib/api.ts
 │   ├── package.json
 │   └── .env.example
+├── docs/
+│   └── images/
+│       ├── screen-home.png
+│       ├── screen-result.png
+│       ├── screen-cache.png
+│       ├── screen-chart.png
+│       ├── screen-erd.png
+│       └── screen-authors.png
 └── .gitignore
 ```
 

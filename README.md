@@ -187,8 +187,3 @@ cd backend && python -c "from app import app; print('OK')"
 - Ужесточить ESLint/TypeScript в frontend (сейчас есть `any` в нескольких местах).
 
 ---
-
-Если нужно, подготовлю также:
-- `README` на английском,
-- `docker-compose.yml` для запуска всей системы одной командой,
-- шаблон `backend/.env.example` и чек-лист деплоя на GitHub.
